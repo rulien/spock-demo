@@ -5,7 +5,7 @@ import org.junit.Rule
 import org.junit.rules.TemporaryFolder
 
 
-class JunitRuleTest extends Specification {
+class JunitRuleSpec extends Specification {
     @Rule def tempFolder = new TemporaryFolder()
     File file
 
