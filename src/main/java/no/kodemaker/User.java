@@ -3,8 +3,6 @@ package no.kodemaker;
 import java.util.ArrayList;
 import java.util.List;
 
-import groovy.lang.Immutable;
-
 public class User implements Comparable{
     private String nick;
     private String displayName;

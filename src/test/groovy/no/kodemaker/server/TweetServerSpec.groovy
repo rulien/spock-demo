@@ -18,7 +18,7 @@ class TweetServerSpec extends Specification {
         when :
             def users = tweetDeck.register(user)
         then :
-            users[nick]
+            users[nick].displayName == displayName
         where :
             nick     | displayName
             "rulien" | "Rune Lien"
